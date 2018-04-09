@@ -1,0 +1,2856 @@
+!SESSION 2018-04-01 19:33:41.265 -----------------------------------------------
+eclipse.buildId=2017.4
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk
+
+!ENTRY org.eclipse.ui 2 0 2018-04-01 19:33:42.769
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-01 19:33:42.769
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-04-01 19:33:43.319
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-01 19:33:43.319
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:48.699
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:48.702
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:48.707
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:48.712
+!MESSAGE XSCT Command: [setws C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:49.037
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:49.041
+!MESSAGE XSCT command with result: [setws C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:49.119
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.112
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.132
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.138
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Sun Apr  1 18:51:30 2018",
+"vivado_version": "2017.4",
+"part": "xc7s50csga324-1",
+}]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.143
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.151
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"Arty_RGB_AXI_0": {"hier_name": "Arty_RGB_AXI_0",
+"type": "Arty_RGB_AXI",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "5.4",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.256
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.263
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Arty_RGB_AXI_0_s00_axi": {"name": "Arty_RGB_AXI_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "s00_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x00001FFF",
+"size": "8192",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.284
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.290
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.316
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:50.322
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Arty_RGB_AXI_0": {},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.615
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.624
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos901_xilinx_v1_1": {"name": "freertos901_xilinx",
+"version": "1.1",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/ThirdParty/bsp/freertos901_xilinx_v1_1",
+},
+"standalone_v6_5": {"name": "standalone",
+"version": "6.5",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/bsp/standalone_v6_5",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.641
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.646
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.654
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.659
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.664
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.670
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.674
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.680
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.684
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.689
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.702
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.707
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.711
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.908
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos901_xilinx",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos901_xilinx",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos901_xilinx",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5",
+"supp_os": "freertos901_xilinx standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos901_xilinx standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos901_xilinx standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos901_xilinx standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family & serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.915
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.926
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [{Format=This application requires a Uart IP in the hardware., Time=1522604038925, Code=1}, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.931
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.942
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.948
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:33:58.959
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:05.685
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:05.691
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:05.938
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:05.947
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:06.159
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:06.166
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:06.777
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:06.791
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:07.255
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:07.262
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:07.438
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:07.444
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:07.586
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:07.591
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:07.679
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:07.684
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:12.045
+!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw RGB_test_bsp -dir C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp -processor microblaze_0 -os standalone -app empty_application], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:12.059
+!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw RGB_test_bsp -dir C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp -processor microblaze_0 -os standalone -app empty_application], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:12.203
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:12.208
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:12.212
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:12.218
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:12.222
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:13.444
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.862
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.868
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.873
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.878
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.882
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.887
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.891
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.895
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.900
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.906
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.910
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.915
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.919
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.925
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.929
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.934
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.942
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.947
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.950
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.956
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.961
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.966
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, Arty_RGB_AXI_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.970
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.976
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {"Arty_RGB_AXI_0": {"name": "generic",
+"ver": "2.0",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.6",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:14.981
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.009
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"Arty_RGB_AXI_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"clk_wiz_0": {"version": "5.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "10.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_6": {"name": "cpu",
+"version": "2.6",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_0_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2017.4/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.015
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.021
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.025
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.030
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.035
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.040
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.074
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.080
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.084
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.090
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.094
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.098
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.102
+!MESSAGE XSCT Command: [::hsi::utils::opensw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.107
+!MESSAGE XSCT command with result: [::hsi::utils::opensw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.111
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss -app empty_application -processor microblaze_0 -os standalone -dir C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test/src], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.163
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss -app empty_application -processor microblaze_0 -os standalone -dir C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test/src], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.414
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.419
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.423
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.429
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.444
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.451
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {"Arty_RGB_AXI_0": {"name": "generic",
+"ver": "2.0",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.6",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.461
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.467
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.473
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.479
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.487
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.493
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.529
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.534
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.891
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.898
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.903
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.908
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.918
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.923
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.954
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:34:15.960
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.001
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.056
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.064
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.164
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.170
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.257
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.264
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.561
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.569
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:16.614
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:19.173
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:19.248
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:19.254
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:19.298
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:19.979
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:19.986
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:20.093
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:21.946
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:21.959
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:21.963
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:21.968
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:24.248
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:24.253
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:24.258
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:24.262
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:41.440
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-01 19:34:41.467
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-01 19:34:42.254
+!MESSAGE Indexed 'RGB_test_bsp' (33 sources, 72 headers) in 0,705 sec: 1.212 declarations; 4.494 references; 44 unresolved inclusions; 5 syntax errors; 34 unresolved names (0,59 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-01 19:34:42.260
+!MESSAGE Indexed 'RGB_test' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:30.800
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf bit], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:30.806
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf bit], Result: [null, design_1_wrapper.bit]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:30.810
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:30.816
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "design_1_i/microblaze_0:design_1_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:32.502
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:32.509
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:32.514
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:32.522
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.501
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.512
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.517
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.580
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.586
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.596
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.600
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.622
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.627
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.656
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.661
+!MESSAGE XSCT Command: [fpga -file C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:41.934
+!MESSAGE XSCT command with result: [fpga -file C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:42.738
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:36:42.748
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY org.eclipse.debug.ui 4 0 2018-04-01 19:37:05.034
+!MESSAGE Launch shortcut 'com.xilinx.sdk.launch.remote.shortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.File
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableConfigurationTypes(LaunchConfigurationManager.java:736)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableLaunchConfigurations(LaunchConfigurationManager.java:773)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getParticipatingLaunchConfigurations(LaunchingResourceManager.java:507)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getLabel(LaunchingResourceManager.java:324)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:244)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-04-01 19:37:05.035
+!MESSAGE No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.File
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:06.525
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:06.532
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:06.537
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:06.542
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:06.546
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:06.552
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2018-04-01 19:37:07.924
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.932
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.939
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {}]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.943
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.949
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.955
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.961
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.965
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.971
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.975
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.979
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.984
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.989
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.994
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:07.999
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.003
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.013
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.017
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.027
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.031
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.053
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.058
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==0} -index 0], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.087
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==0} -index 0], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.091
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.121
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.125
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.130
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.133
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.145
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.148
+!MESSAGE XSCT Command: [version -server], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.154
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.4]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.158
+!MESSAGE XSCT Command: [version], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.162
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.4]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.166
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.176
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.179
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.202
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.207
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.216
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.221
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.243
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.248
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.256
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.260
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.283
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.287
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.296
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.300
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.321
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.326
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level == 0}], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.347
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level == 0}], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.351
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.356
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.360
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.366
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.370
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.406
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.410
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.437
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.441
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.480
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.484
+!MESSAGE XSCT Command: [dow C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test/Debug/RGB_test.elf], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.533
+!MESSAGE XSCT command with result: [dow C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test/Debug/RGB_test.elf], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.591
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.632
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.636
+!MESSAGE XSCT Command: [con], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:08.647
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 1 0 2018-04-01 19:37:22.911
+!MESSAGE Executed Webtalk command
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:22.924
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-156
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-01 19:37:22.931
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-156
+!SESSION 2018-04-07 13:58:04.770 -----------------------------------------------
+eclipse.buildId=2017.4
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk
+
+!ENTRY org.eclipse.ui 2 0 2018-04-07 13:58:07.068
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-07 13:58:07.068
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-04-07 13:58:07.866
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-07 13:58:07.866
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:14.395
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:14.399
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:14.717
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:14.721
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:14.728
+!MESSAGE XSCT Command: [setws C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:14.737
+!MESSAGE XSCT command with result: [setws C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk], Result: [null, ]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:14.744
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.715
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.736
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.744
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.749
+!MESSAGE XSCT Command: [hsi get_hw_files -of_object [openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ; hsi current_hw_design]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.756
+!MESSAGE XSCT command with result: [hsi get_hw_files -of_object [openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ; hsi current_hw_design]], Result: [null, design_1.hwh design_1_bd.tcl design_1_wrapper.bit design_1_wrapper.mmi]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.802
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.808
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.812
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.868
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.877
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/dm/AppData/Local/Temp/system4742756714091194409.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.927
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/dm/AppData/Local/Temp/system4742756714091194409.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.934
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.944
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"Arty_RGB_AXI_0": {"hier_name": "Arty_RGB_AXI_0",
+"type": "Arty_RGB_AXI",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "5.4",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.950
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/dm/AppData/Local/Temp/system4742756714091194409.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:15.958
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/dm/AppData/Local/Temp/system4742756714091194409.hdf], Result: [null, {"Arty_RGB_AXI_0": {"hier_name": "Arty_RGB_AXI_0",
+"type": "Arty_RGB_AXI",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "5.4",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:16.726
+!MESSAGE XSCT Command: [::hsi::utils::sync_sw_with_hw_changes -newhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -oldhw C:/Users/dm/AppData/Local/Temp/system4742756714091194409.hdf -sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss -dir C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:19.129
+!MESSAGE XSCT command with result: [::hsi::utils::sync_sw_with_hw_changes -newhw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf -oldhw C:/Users/dm/AppData/Local/Temp/system4742756714091194409.hdf -sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss -dir C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.069
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.076
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.080
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.085
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.090
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.094
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.099
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.104
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.108
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.113
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.118
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.123
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.127
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.133
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.138
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:58:20.143
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY org.eclipse.ui 4 0 2018-04-07 13:58:21.269
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: java.lang.NullPointerException
+	at com.xilinx.sdk.hw.sync.internal.HwChangeWorkspaceSynchronizer.reopenMssFiles(HwChangeWorkspaceSynchronizer.java:144)
+	at com.xilinx.sdk.hw.sync.internal.HwChangeWorkspaceSynchronizer.synchronize(HwChangeWorkspaceSynchronizer.java:111)
+	at com.xilinx.sdk.hw.sync.HwSpecChangeUtil.performChange(HwSpecChangeUtil.java:136)
+	at com.xilinx.sdk.startup.InitSDK$16.run(InitSDK.java:546)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 23 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:25.821
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:25.828
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:25.834
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:25.840
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:25.846
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:25.853
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Sat Apr  7 13:54:29 2018",
+"vivado_version": "2017.4",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:25.858
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:25.863
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:28.511
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:28.559
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:28.566
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:28.680
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:28.688
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:28.780
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:28.787
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:29.073
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:29.079
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:29.124
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:30.434
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:30.441
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:30.447
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:30.454
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:30.460
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:59:30.466
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:31.996
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:32.076
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:32.083
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:32.125
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:32.858
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:32.865
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:32.970
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:34.936
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:34.942
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:34.948
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:34.953
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:37.448
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:37.454
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:37.460
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:37.467
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:56.763
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-04-07 13:59:56.797
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:42.018
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:42.025
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "design_1_i/microblaze_0:design_1_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:43.171
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:43.180
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:43.186
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:43.193
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:52.120
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:52.130
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:52.136
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:53.046
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:53.051
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:53.062
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:53.066
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:53.088
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:53.093
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:53.124
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:53.128
+!MESSAGE XSCT Command: [fpga -file C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:53.391
+!MESSAGE XSCT command with result: [fpga -file C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:54.196
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:00:54.206
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY org.eclipse.debug.ui 4 0 2018-04-07 14:00:55.532
+!MESSAGE Launch shortcut 'com.xilinx.sdk.launch.remote.shortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.File
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableConfigurationTypes(LaunchConfigurationManager.java:736)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableLaunchConfigurations(LaunchConfigurationManager.java:773)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getParticipatingLaunchConfigurations(LaunchingResourceManager.java:507)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getLabel(LaunchingResourceManager.java:324)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:244)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-04-07 14:00:55.533
+!MESSAGE No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.File
+
+!ENTRY com.xilinx.sdk.utils 1 0 2018-04-07 14:01:01.289
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.297
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.306
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.310
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.317
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Arty_RGB_AXI_0": {},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.321
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.330
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Arty_RGB_AXI_0_s00_axi": {"name": "Arty_RGB_AXI_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "s00_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x00001FFF",
+"size": "8192",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.335
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.343
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.350
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.357
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.362
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.368
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.372
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.377
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.381
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.386
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.390
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.395
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.399
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.404
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.409
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.414
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.418
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.423
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.427
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.437
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.441
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.450
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.454
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.477
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.481
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==0} -index 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.511
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==0} -index 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.515
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.525
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.529
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.534
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.538
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.549
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.554
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.559
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.4]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.563
+!MESSAGE XSCT Command: [version], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.568
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.4]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.572
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.582
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.586
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.609
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.614
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.624
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.628
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.650
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.656
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.665
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.669
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.691
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.695
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.706
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6BE9FA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.711
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.733
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.737
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.761
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Arty S7 - 50 210352A6BE9FA" && level == 0}], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.765
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.770
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.775
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.781
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.785
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.820
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.825
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.844
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.848
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.883
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.887
+!MESSAGE XSCT Command: [dow C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test/Debug/RGB_test.elf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:01.940
+!MESSAGE XSCT command with result: [dow C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/RGB_test/Debug/RGB_test.elf], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:02.006
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:02.048
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6BE9FA"} -index 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:02.053
+!MESSAGE XSCT Command: [con], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:02.064
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:05.132
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-124
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 14:01:05.139
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-124
+!SESSION 2018-04-07 13:29:53.916 -----------------------------------------------
+eclipse.buildId=2017.4
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk
+
+!ENTRY org.eclipse.ui 2 0 2018-04-07 13:30:08.258
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-07 13:30:08.259
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-04-07 13:30:10.320
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-07 13:30:10.321
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:36.017
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:36.019
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:36.065
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:36.078
+!MESSAGE XSCT Command: [setws D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:38.979
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:38.981
+!MESSAGE XSCT command with result: [setws D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:39.033
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.078
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.197
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.365
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.399
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.409
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Sat Apr  7 13:54:29 2018",
+"vivado_version": "2017.4",
+"part": "xc7s50csga324-1",
+}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.415
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.430
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf], Result: [null, {"Arty_RGB_AXI_0": {"hier_name": "Arty_RGB_AXI_0",
+"type": "Arty_RGB_AXI",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "5.4",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.675
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.684
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf microblaze_0], Result: [null, {"Arty_RGB_AXI_0_s00_axi": {"name": "Arty_RGB_AXI_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "s00_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x00001FFF",
+"size": "8192",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.733
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf mdm_1], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.736
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf mdm_1], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.768
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:43.773
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_1/system.hdf microblaze_0], Result: [null, {"Arty_RGB_AXI_0": {},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:51.554
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:51.561
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "design_1_i/microblaze_0:design_1_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:51.563
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:51.580
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"Arty_RGB_AXI_0": {"hier_name": "Arty_RGB_AXI_0",
+"type": "Arty_RGB_AXI",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "5.4",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:51.646
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:51.651
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Sat Apr  7 13:54:29 2018",
+"vivado_version": "2017.4",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:54.084
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:54.089
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:54.136
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:54.145
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:54.150
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:30:54.157
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Workspaces/Xilinx/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:27.061
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:30.810
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:30.815
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:34.137
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:37.138
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:40.156
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:40.161
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:43.175
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:46.177
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:49.195
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:57.721
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:57.725
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:31:57.727
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:00.747
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:03.749
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:06.768
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:06.769
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:09.782
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:12.784
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:15.803
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:23.668
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:23.670
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:23.671
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:26.685
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:29.686
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:32.706
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:32.708
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:35.722
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:38.724
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-07 13:32:41.741
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 1 0 2018-04-07 13:33:55.026
+!MESSAGE Executed Webtalk command

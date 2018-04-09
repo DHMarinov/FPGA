@@ -1,0 +1,37 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port ck_rst -pg 1 -y 470 -defaultsOSRD
+preplace port CLK12MHZ -pg 1 -y 500 -defaultsOSRD
+preplace portBus rgb_led -pg 1 -y 390 -defaultsOSRD
+preplace inst Arty_RGB_AXI_0 -pg 1 -lvl 2 -y 330 -defaultsOSRD
+preplace inst rst_clk_wiz_0_100M -pg 1 -lvl 5 -y 280 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 6 -y 270 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -y 410 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -y 490 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 6 -y 90 -defaultsOSRD
+preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 5 1 1420
+preplace netloc clk_wiz_0_locked 1 3 2 1020 320 NJ
+preplace netloc microblaze_0_Clk 1 0 6 30 170 530 430 NJ 430 1010 240 1070 190 1440
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 1 6 540 400 NJ 400 NJ 400 NJ 400 NJ 400 1720
+preplace netloc microblaze_0_M_AXI_DP 1 1 5 NJ 100 NJ 100 NJ 100 NJ 100 1430
+preplace netloc microblaze_0_ilmb_1 1 1 5 NJ 80 NJ 80 NJ 80 NJ 80 N
+preplace netloc sys_clock_1 1 0 3 NJ 500 NJ 500 NJ
+preplace netloc Arty_RGB_AXI_0_rgb_led 1 2 10 NJ 330 NJ 330 1060J 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ
+preplace netloc rst_clk_wiz_0_100M_mb_reset 1 0 6 40 180 NJ 180 NJ 180 NJ 180 NJ 180 1410
+preplace netloc microblaze_0_dlmb_1 1 1 5 NJ 60 NJ 60 NJ 60 NJ 60 N
+preplace netloc microblaze_0_debug 1 0 2 20 160 520
+preplace netloc rst_clk_wiz_0_100M_interconnect_aresetn 1 5 1 1450
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 1 5 550 410 NJ 410 NJ 410 NJ 410 1460
+preplace netloc mdm_1_debug_sys_rst 1 1 4 NJ 420 NJ 420 NJ 420 1070
+preplace netloc reset_1 1 0 5 NJ 470 NJ 470 810 260 NJ 260 NJ
+levelinfo -pg 1 0 280 680 910 1040 1240 1590 1740 1790 1840 1890 1940 1980 -top 0 -bot 550
+",
+}
+{
+   da_axi4_cnt: "1",
+   da_board_cnt: "1",
+   da_mb_cnt: "1",
+}

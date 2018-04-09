@@ -1,0 +1,611 @@
+
+*** Running vivado
+    with args -log design_2_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_2_wrapper.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_2_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/2017/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/dm/Desktop/source/Arty-S7-50-base/src/bd/system/ip/system_PWM_0_0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dm/Desktop/source/Arty-S7-50-base/src/bd/system/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 327.629 ; gain = 100.551
+Command: synth_design -top design_2_wrapper -part xc7s50csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12556 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 421.734 ; gain = 94.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_2_wrapper' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/hdl/design_2_wrapper.vhd:42]
+INFO: [Synth 8-3491] module 'design_2' declared at 'C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3317' bound to instance 'design_2_i' of component 'design_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/hdl/design_2_wrapper.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'design_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3349]
+INFO: [Synth 8-3491] module 'design_2_Arty_RGB_AXI_0_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_Arty_RGB_AXI_0_0_stub.vhdl:5' bound to instance 'Arty_RGB_AXI_0' of component 'design_2_Arty_RGB_AXI_0_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3872]
+INFO: [Synth 8-638] synthesizing module 'design_2_Arty_RGB_AXI_0_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_Arty_RGB_AXI_0_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'design_2_axi_gpio_1_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_axi_gpio_1_0_stub.vhdl:5' bound to instance 'axi_gpio_1' of component 'design_2_axi_gpio_1_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3897]
+INFO: [Synth 8-638] synthesizing module 'design_2_axi_gpio_1_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_axi_gpio_1_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'design_2_axi_gpio_0_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_axi_gpio_0_0_stub.vhdl:5' bound to instance 'axi_gpio_led' of component 'design_2_axi_gpio_0_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3921]
+INFO: [Synth 8-638] synthesizing module 'design_2_axi_gpio_0_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_axi_gpio_0_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'design_2_axi_uartlite_0_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_axi_uartlite_0_0_stub.vhdl:5' bound to instance 'axi_uartlite_0' of component 'design_2_axi_uartlite_0_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3946]
+INFO: [Synth 8-638] synthesizing module 'design_2_axi_uartlite_0_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_axi_uartlite_0_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'design_2_clk_wiz_0_2' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_clk_wiz_0_2_stub.vhdl:5' bound to instance 'clk_wiz_0' of component 'design_2_clk_wiz_0_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3971]
+INFO: [Synth 8-638] synthesizing module 'design_2_clk_wiz_0_2' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_clk_wiz_0_2_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_2_mdm_1_1' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_mdm_1_1_stub.vhdl:5' bound to instance 'mdm_1' of component 'design_2_mdm_1_1' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3978]
+INFO: [Synth 8-638] synthesizing module 'design_2_mdm_1_1' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_mdm_1_1_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_2_microblaze_0_2' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_microblaze_0_2_stub.vhdl:5' bound to instance 'microblaze_0' of component 'design_2_microblaze_0_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3991]
+INFO: [Synth 8-638] synthesizing module 'design_2_microblaze_0_2' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_microblaze_0_2_stub.vhdl:63]
+INFO: [Synth 8-638] synthesizing module 'design_2_microblaze_0_axi_periph_1' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:2483]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_11CD1WM' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:59]
+INFO: [Synth 8-3491] module 'design_2_auto_ds_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_ds_0_stub.vhdl:5' bound to instance 'auto_ds' of component 'design_2_auto_ds_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'design_2_auto_ds_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_ds_0_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_11CD1WM' (1#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_TCH0CN' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:278]
+INFO: [Synth 8-3491] module 'design_2_auto_ds_1' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_ds_1_stub.vhdl:5' bound to instance 'auto_ds' of component 'design_2_auto_ds_1' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:404]
+INFO: [Synth 8-638] synthesizing module 'design_2_auto_ds_1' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_ds_1_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_TCH0CN' (2#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:278]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_10F4R51' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:497]
+INFO: [Synth 8-3491] module 'design_2_auto_ds_2' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_ds_2_stub.vhdl:5' bound to instance 'auto_ds' of component 'design_2_auto_ds_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:621]
+INFO: [Synth 8-638] synthesizing module 'design_2_auto_ds_2' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_ds_2_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_10F4R51' (3#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:497]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_TZF3PG' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:714]
+INFO: [Synth 8-3491] module 'design_2_auto_ds_3' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_ds_3_stub.vhdl:5' bound to instance 'auto_ds' of component 'design_2_auto_ds_3' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:838]
+INFO: [Synth 8-638] synthesizing module 'design_2_auto_ds_3' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_ds_3_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_TZF3PG' (4#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:714]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_136UCPS' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:947]
+INFO: [Synth 8-3491] module 'design_2_auto_cc_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_cc_0_stub.vhdl:5' bound to instance 'auto_cc' of component 'design_2_auto_cc_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1347]
+INFO: [Synth 8-638] synthesizing module 'design_2_auto_cc_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_cc_0_stub.vhdl:85]
+INFO: [Synth 8-3491] module 'design_2_auto_pc_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_2_auto_pc_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1424]
+INFO: [Synth 8-638] synthesizing module 'design_2_auto_pc_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_pc_0_stub.vhdl:67]
+INFO: [Synth 8-3491] module 'design_2_auto_us_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_us_0_stub.vhdl:5' bound to instance 'auto_us' of component 'design_2_auto_us_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1483]
+INFO: [Synth 8-638] synthesizing module 'design_2_auto_us_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_us_0_stub.vhdl:83]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_136UCPS' (5#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:947]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_ZF502S' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:2168]
+INFO: [Synth 8-3491] module 'design_2_auto_us_1' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_us_1_stub.vhdl:5' bound to instance 'auto_us' of component 'design_2_auto_us_1' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:2294]
+INFO: [Synth 8-638] synthesizing module 'design_2_auto_us_1' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_auto_us_1_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_ZF502S' (6#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:2168]
+INFO: [Synth 8-3491] module 'design_2_xbar_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'design_2_xbar_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3193]
+INFO: [Synth 8-638] synthesizing module 'design_2_xbar_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_xbar_0_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'design_2_microblaze_0_axi_periph_1' (7#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:2483]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_MFYM5E' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1589]
+INFO: [Synth 8-3491] module 'design_2_dlmb_bram_if_cntlr_2' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_dlmb_bram_if_cntlr_2_stub.vhdl:5' bound to instance 'dlmb_bram_if_cntlr' of component 'design_2_dlmb_bram_if_cntlr_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1803]
+INFO: [Synth 8-638] synthesizing module 'design_2_dlmb_bram_if_cntlr_2' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_dlmb_bram_if_cntlr_2_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_2_dlmb_v10_2' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_dlmb_v10_2_stub.vhdl:5' bound to instance 'dlmb_v10' of component 'design_2_dlmb_v10_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1857]
+INFO: [Synth 8-638] synthesizing module 'design_2_dlmb_v10_2' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_dlmb_v10_2_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'design_2_ilmb_bram_if_cntlr_2' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_ilmb_bram_if_cntlr_2_stub.vhdl:5' bound to instance 'ilmb_bram_if_cntlr' of component 'design_2_ilmb_bram_if_cntlr_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1885]
+INFO: [Synth 8-638] synthesizing module 'design_2_ilmb_bram_if_cntlr_2' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_ilmb_bram_if_cntlr_2_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_2_ilmb_v10_2' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_ilmb_v10_2_stub.vhdl:5' bound to instance 'ilmb_v10' of component 'design_2_ilmb_v10_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1939]
+INFO: [Synth 8-638] synthesizing module 'design_2_ilmb_v10_2' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_ilmb_v10_2_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'design_2_lmb_bram_2' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_lmb_bram_2_stub.vhdl:5' bound to instance 'lmb_bram' of component 'design_2_lmb_bram_2' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1967]
+INFO: [Synth 8-638] synthesizing module 'design_2_lmb_bram_2' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_lmb_bram_2_stub.vhdl:27]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_MFYM5E' (8#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:1589]
+WARNING: [Synth 8-5640] Port 'ui_addn_clk_1' is missing in component declaration [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3545]
+WARNING: [Synth 8-5640] Port 'ui_addn_clk_2' is missing in component declaration [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3545]
+WARNING: [Synth 8-5640] Port 'ui_addn_clk_3' is missing in component declaration [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3545]
+WARNING: [Synth 8-5640] Port 'ui_addn_clk_4' is missing in component declaration [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3545]
+WARNING: [Synth 8-5640] Port 'app_sr_active' is missing in component declaration [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3545]
+WARNING: [Synth 8-5640] Port 'app_ref_ack' is missing in component declaration [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3545]
+WARNING: [Synth 8-5640] Port 'app_zq_ack' is missing in component declaration [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3545]
+WARNING: [Synth 8-5640] Port 'device_temp' is missing in component declaration [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3545]
+INFO: [Synth 8-3491] module 'design_2_mig_7series_0_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_mig_7series_0_0_stub.vhdl:5' bound to instance 'mig_7series_0' of component 'design_2_mig_7series_0_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:4209]
+INFO: [Synth 8-638] synthesizing module 'design_2_mig_7series_0_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_mig_7series_0_0_stub.vhdl:81]
+INFO: [Synth 8-3491] module 'design_2_proc_sys_reset_0_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_proc_sys_reset_0_0_stub.vhdl:5' bound to instance 'proc_sys_reset_0' of component 'design_2_proc_sys_reset_0_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:4274]
+INFO: [Synth 8-638] synthesizing module 'design_2_proc_sys_reset_0_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_proc_sys_reset_0_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_2_rst_mig_7series_0_81M_0' declared at 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_rst_mig_7series_0_81M_0_stub.vhdl:5' bound to instance 'rst_mig_7series_0_81M' of component 'design_2_rst_mig_7series_0_81M_0' [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:4287]
+INFO: [Synth 8-638] synthesizing module 'design_2_rst_mig_7series_0_81M_0' [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/realtime/design_2_rst_mig_7series_0_81M_0_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'design_2' (9#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/synth/design_2.vhd:3349]
+INFO: [Synth 8-256] done synthesizing module 'design_2_wrapper' (10#1) [C:/Projects/2017/S7_system/S7_system.srcs/sources_1/bd/design_2/hdl/design_2_wrapper.vhd:42]
+WARNING: [Synth 8-3331] design s00_couplers_imp_ZF502S has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_ZF502S has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m04_couplers_imp_136UCPS has unconnected port S_AXI_araddr[31]
+WARNING: [Synth 8-3331] design m04_couplers_imp_136UCPS has unconnected port S_AXI_araddr[30]
+WARNING: [Synth 8-3331] design m04_couplers_imp_136UCPS has unconnected port S_AXI_araddr[29]
+WARNING: [Synth 8-3331] design m04_couplers_imp_136UCPS has unconnected port S_AXI_araddr[28]
+WARNING: [Synth 8-3331] design m04_couplers_imp_136UCPS has unconnected port S_AXI_awaddr[31]
+WARNING: [Synth 8-3331] design m04_couplers_imp_136UCPS has unconnected port S_AXI_awaddr[30]
+WARNING: [Synth 8-3331] design m04_couplers_imp_136UCPS has unconnected port S_AXI_awaddr[29]
+WARNING: [Synth 8-3331] design m04_couplers_imp_136UCPS has unconnected port S_AXI_awaddr[28]
+WARNING: [Synth 8-3331] design m03_couplers_imp_TZF3PG has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_TZF3PG has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_10F4R51 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_10F4R51 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_TCH0CN has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_TCH0CN has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_11CD1WM has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_11CD1WM has unconnected port M_ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 478.262 ; gain = 150.633
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 478.262 ; gain = 150.633
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp24/design_2_proc_sys_reset_0_0_in_context.xdc] for cell 'design_2_i/proc_sys_reset_0'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp24/design_2_proc_sys_reset_0_0_in_context.xdc] for cell 'design_2_i/proc_sys_reset_0'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp25/design_2_clk_wiz_0_2_in_context.xdc] for cell 'design_2_i/clk_wiz_0'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp25/design_2_clk_wiz_0_2_in_context.xdc] for cell 'design_2_i/clk_wiz_0'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp26/design_2_axi_uartlite_0_0_in_context.xdc] for cell 'design_2_i/axi_uartlite_0'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp26/design_2_axi_uartlite_0_0_in_context.xdc] for cell 'design_2_i/axi_uartlite_0'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp27/design_2_axi_gpio_1_0_in_context.xdc] for cell 'design_2_i/axi_gpio_1'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp27/design_2_axi_gpio_1_0_in_context.xdc] for cell 'design_2_i/axi_gpio_1'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp28/design_2_xbar_0_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp28/design_2_xbar_0_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp29/design_2_Arty_RGB_AXI_0_0_in_context.xdc] for cell 'design_2_i/Arty_RGB_AXI_0'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp29/design_2_Arty_RGB_AXI_0_0_in_context.xdc] for cell 'design_2_i/Arty_RGB_AXI_0'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp30/design_2_axi_gpio_2_0_in_context.xdc] for cell 'design_2_i/axi_gpio_led'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp30/design_2_axi_gpio_2_0_in_context.xdc] for cell 'design_2_i/axi_gpio_led'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp31/design_2_mdm_1_1_in_context.xdc] for cell 'design_2_i/mdm_1'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp31/design_2_mdm_1_1_in_context.xdc] for cell 'design_2_i/mdm_1'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp32/design_2_microblaze_0_2_in_context.xdc] for cell 'design_2_i/microblaze_0'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp32/design_2_microblaze_0_2_in_context.xdc] for cell 'design_2_i/microblaze_0'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp33/design_2_dlmb_v10_1_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp33/design_2_dlmb_v10_1_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp34/design_2_dlmb_v10_1_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp34/design_2_dlmb_v10_1_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp35/design_2_dlmb_bram_if_cntlr_2_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp35/design_2_dlmb_bram_if_cntlr_2_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp36/design_2_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp36/design_2_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp37/design_2_lmb_bram_2_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp37/design_2_lmb_bram_2_in_context.xdc] for cell 'design_2_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc] for cell 'design_2_i/mig_7series_0'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc] for cell 'design_2_i/mig_7series_0'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp39/design_2_rst_mig_7series_0_81M_0_in_context.xdc] for cell 'design_2_i/rst_mig_7series_0_81M'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp39/design_2_rst_mig_7series_0_81M_0_in_context.xdc] for cell 'design_2_i/rst_mig_7series_0_81M'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp40/design_2_auto_pc_0_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m04_couplers/auto_pc'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp40/design_2_auto_pc_0_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m04_couplers/auto_pc'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp41/design_2_auto_us_0_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m04_couplers/auto_us'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp41/design_2_auto_us_0_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m04_couplers/auto_us'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp42/design_2_auto_cc_0_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m04_couplers/auto_cc'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp42/design_2_auto_cc_0_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m04_couplers/auto_cc'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp43/design_2_auto_ds_3_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m03_couplers/auto_ds'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp43/design_2_auto_ds_3_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m03_couplers/auto_ds'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp44/design_2_auto_ds_3_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m02_couplers/auto_ds'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp44/design_2_auto_ds_3_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m02_couplers/auto_ds'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp45/design_2_auto_ds_3_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m01_couplers/auto_ds'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp45/design_2_auto_ds_3_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m01_couplers/auto_ds'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp46/design_2_auto_ds_3_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m00_couplers/auto_ds'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp46/design_2_auto_ds_3_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/m00_couplers/auto_ds'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp47/design_2_auto_us_1_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/s00_couplers/auto_us'
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp47/design_2_auto_us_1_in_context.xdc] for cell 'design_2_i/microblaze_0_axi_periph/s00_couplers/auto_us'
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK12MHZ'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:7]
+WARNING: [Vivado 12-584] No ports matched 'CLK12MHZ'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:8]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:14]
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'ck_rst'. [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc:184]
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_2_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Projects/2017/S7_system/S7_system.srcs/constrs_1/imports/Desktop/Arty-S7-50-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_2_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_2_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Projects/2017/S7_system/S7_system.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 786.875 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'design_2_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 786.875 ; gain = 459.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 786.875 ; gain = 459.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp25/design_2_clk_wiz_0_2_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp25/design_2_clk_wiz_0_2_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 9).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[10]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 10).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[10]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 11).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[11]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 12).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[11]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 13).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[12]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 14).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[12]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 15).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[13]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 16).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[13]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 17).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 18).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 19).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[2]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 20).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[2]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 21).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[3]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 22).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[3]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 23).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[4]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 24).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[4]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 25).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[5]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 26).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[5]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 27).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[6]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 28).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[6]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 29).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[7]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 30).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[7]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 31).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[8]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 32).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[8]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 33).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_addr[9]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 34).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_addr[9]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 35).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ba[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 36).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ba[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 37).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ba[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 38).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ba[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 39).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ba[2]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 40).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ba[2]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 41).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_cas_n. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 42).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_cas_n. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 43).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ck_n[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 44).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ck_n[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 45).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ck_p[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 46).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ck_p[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 47).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_cke[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 48).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_cke[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 49).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_cs_n[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 50).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_cs_n[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 51).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dm[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 52).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dm[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 53).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dm[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 54).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dm[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 55).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 56).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 57).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[10]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 58).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[10]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 59).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[11]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 60).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[11]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 61).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[12]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 62).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[12]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 63).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[13]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 64).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[13]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 65).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[14]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 66).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[14]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 67).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[15]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 68).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[15]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 69).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 70).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 71).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[2]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 72).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[2]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 73).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[3]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 74).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[3]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 75).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[4]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 76).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[4]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 77).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[5]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 78).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[5]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 79).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[6]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 80).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[6]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 81).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[7]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 82).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[7]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 83).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[8]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 84).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[8]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 85).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dq[9]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 86).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dq[9]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 87).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dqs_n[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 88).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dqs_n[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 89).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dqs_n[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 90).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dqs_n[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 91).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dqs_p[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 92).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dqs_p[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 93).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_dqs_p[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 94).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_dqs_p[1]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 95).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_odt[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 96).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_odt[0]. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 97).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_ras_n. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 98).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_ras_n. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 99).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_reset_n. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 100).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_reset_n. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 101).
+Applied set_property IO_BUFFER_TYPE = NONE for ddr3_sdram_we_n. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 102).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_sdram_we_n. (constraint file  C:/Projects/2017/S7_system/S7_system.runs/synth_1/.Xil/Vivado-12508-DESKTOP-CL37U4I/dcp38/design_2_mig_7series_0_0_in_context.xdc, line 103).
+Applied set_property DONT_TOUCH = true for design_2_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/Arty_RGB_AXI_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/axi_gpio_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/axi_gpio_led. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/mdm_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph/m00_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph/m01_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph/m02_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph/m03_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph/m04_couplers/auto_cc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph/m04_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph/m04_couplers/auto_us. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph/s00_couplers/auto_us. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/mig_7series_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/proc_sys_reset_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_2_i/rst_mig_7series_0_81M. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 786.875 ; gain = 459.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 786.875 ; gain = 459.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design design_2_microblaze_0_axi_periph_1 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_2_microblaze_0_axi_periph_1 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design design_2_microblaze_0_axi_periph_1 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design design_2_microblaze_0_axi_periph_1 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design design_2_microblaze_0_axi_periph_1 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design design_2_microblaze_0_axi_periph_1 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design design_2_microblaze_0_axi_periph_1 has unconnected port M03_ACLK
+WARNING: [Synth 8-3331] design design_2_microblaze_0_axi_periph_1 has unconnected port M03_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 786.875 ; gain = 459.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/clk_wiz_0/clk_out1' to pin 'design_2_i/clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/mdm_1/Dbg_Clk_0' to pin 'design_2_i/mdm_1/bbstub_Dbg_Clk_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/mdm_1/Dbg_Update_0' to pin 'design_2_i/mdm_1/bbstub_Dbg_Update_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/BRAM_Clk_A' to pin 'design_2_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/BRAM_Clk_A' to pin 'design_2_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/mig_7series_0/sys_clk_i' to pin 'design_2_i/clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/mig_7series_0/ui_addn_clk_0' to pin 'design_2_i/mig_7series_0/bbstub_ui_addn_clk_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/mig_7series_0/ui_addn_clk_1' to pin 'design_2_i/mig_7series_0/bbstub_ui_addn_clk_1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/mig_7series_0/ui_addn_clk_2' to pin 'design_2_i/mig_7series_0/bbstub_ui_addn_clk_2/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/mig_7series_0/ui_addn_clk_3' to pin 'design_2_i/mig_7series_0/bbstub_ui_addn_clk_3/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/mig_7series_0/ui_addn_clk_4' to pin 'design_2_i/mig_7series_0/bbstub_ui_addn_clk_4/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_2_i/mig_7series_0/ui_clk' to pin 'design_2_i/mig_7series_0/bbstub_ui_clk/O'
+INFO: [Synth 8-5819] Moved 12 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 786.875 ; gain = 459.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 786.875 ; gain = 459.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 790.395 ; gain = 462.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 790.395 ; gain = 462.766
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 790.395 ; gain = 462.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 790.395 ; gain = 462.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 790.395 ; gain = 462.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 790.395 ; gain = 462.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 790.395 ; gain = 462.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------------------------+----------+
+|      |BlackBox name                    |Instances |
++------+---------------------------------+----------+
+|1     |design_2_xbar_0                  |         1|
+|2     |design_2_auto_ds_0               |         1|
+|3     |design_2_auto_ds_1               |         1|
+|4     |design_2_auto_ds_2               |         1|
+|5     |design_2_auto_ds_3               |         1|
+|6     |design_2_auto_cc_0               |         1|
+|7     |design_2_auto_pc_0               |         1|
+|8     |design_2_auto_us_0               |         1|
+|9     |design_2_auto_us_1               |         1|
+|10    |design_2_Arty_RGB_AXI_0_0        |         1|
+|11    |design_2_axi_gpio_1_0            |         1|
+|12    |design_2_axi_gpio_0_0            |         1|
+|13    |design_2_axi_uartlite_0_0        |         1|
+|14    |design_2_clk_wiz_0_2             |         1|
+|15    |design_2_mdm_1_1                 |         1|
+|16    |design_2_microblaze_0_2          |         1|
+|17    |design_2_mig_7series_0_0         |         1|
+|18    |design_2_proc_sys_reset_0_0      |         1|
+|19    |design_2_rst_mig_7series_0_81M_0 |         1|
+|20    |design_2_dlmb_bram_if_cntlr_2    |         1|
+|21    |design_2_dlmb_v10_2              |         1|
+|22    |design_2_ilmb_bram_if_cntlr_2    |         1|
+|23    |design_2_ilmb_v10_2              |         1|
+|24    |design_2_lmb_bram_2              |         1|
++------+---------------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------------------+------+
+|      |Cell                                     |Count |
++------+-----------------------------------------+------+
+|1     |design_2_Arty_RGB_AXI_0_0_bbox_0         |     1|
+|2     |design_2_auto_cc_0_bbox_11               |     1|
+|3     |design_2_auto_ds_0_bbox_7                |     1|
+|4     |design_2_auto_ds_1_bbox_8                |     1|
+|5     |design_2_auto_ds_2_bbox_9                |     1|
+|6     |design_2_auto_ds_3_bbox_10               |     1|
+|7     |design_2_auto_pc_0_bbox_12               |     1|
+|8     |design_2_auto_us_0_bbox_13               |     1|
+|9     |design_2_auto_us_1_bbox_14               |     1|
+|10    |design_2_axi_gpio_0_0_bbox_2             |     1|
+|11    |design_2_axi_gpio_1_0_bbox_1             |     1|
+|12    |design_2_axi_uartlite_0_0_bbox_3         |     1|
+|13    |design_2_clk_wiz_0_2_bbox_4              |     1|
+|14    |design_2_dlmb_bram_if_cntlr_2_bbox_16    |     1|
+|15    |design_2_dlmb_v10_2_bbox_17              |     1|
+|16    |design_2_ilmb_bram_if_cntlr_2_bbox_18    |     1|
+|17    |design_2_ilmb_v10_2_bbox_19              |     1|
+|18    |design_2_lmb_bram_2_bbox_20              |     1|
+|19    |design_2_mdm_1_1_bbox_5                  |     1|
+|20    |design_2_microblaze_0_2_bbox_6           |     1|
+|21    |design_2_mig_7series_0_0_bbox_21         |     1|
+|22    |design_2_proc_sys_reset_0_0_bbox_22      |     1|
+|23    |design_2_rst_mig_7series_0_81M_0_bbox_23 |     1|
+|24    |design_2_xbar_0_bbox_15                  |     1|
+|25    |IBUF                                     |    10|
+|26    |OBUF                                     |    11|
++------+-----------------------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+-------------------------------------+------+
+|      |Instance                      |Module                               |Cells |
++------+------------------------------+-------------------------------------+------+
+|1     |top                           |                                     |  3879|
+|2     |  design_2_i                  |design_2                             |  3858|
+|3     |    microblaze_0_axi_periph   |design_2_microblaze_0_axi_periph_1   |  2737|
+|4     |      m00_couplers            |m00_couplers_imp_11CD1WM             |   184|
+|5     |      m01_couplers            |m01_couplers_imp_TCH0CN              |   184|
+|6     |      m02_couplers            |m02_couplers_imp_10F4R51             |   184|
+|7     |      m03_couplers            |m03_couplers_imp_TZF3PG              |   184|
+|8     |      m04_couplers            |m04_couplers_imp_136UCPS             |  1005|
+|9     |      s00_couplers            |s00_couplers_imp_ZF502S              |   188|
+|10    |    microblaze_0_local_memory |microblaze_0_local_memory_imp_MFYM5E |   496|
++------+------------------------------+-------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 790.395 ; gain = 462.766
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 790.395 ; gain = 154.152
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 790.395 ; gain = 462.766
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+98 Infos, 49 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 798.207 ; gain = 470.578
+INFO: [Common 17-1381] The checkpoint 'C:/Projects/2017/S7_system/S7_system.runs/synth_1/design_2_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_2_wrapper_utilization_synth.rpt -pb design_2_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 798.207 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  2 21:37:46 2018...

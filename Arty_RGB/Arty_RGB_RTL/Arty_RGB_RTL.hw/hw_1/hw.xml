@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2017.4 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7s50_0" gui_info="dashboard1=hw_vios[xc7s50_0/hw_vio_1=VIO_PROBES_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7s50_0" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/design_1_wrapper.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/design_1_wrapper.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/design_1_wrapper.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="design_1_i/vio_0_probe_out0[7:0]" gui_info="hw_vios/hw_vio_1=0"/>
+    <Object name="design_1_i/vio_0_probe_out1[7:0]" gui_info="hw_vios/hw_vio_1=1"/>
+    <Object name="design_1_i/vio_0_probe_out2[7:0]" gui_info="hw_vios/hw_vio_1=2"/>
+    <Object name="design_1_i/vio_0_probe_out3[7:0]" gui_info="hw_vios/hw_vio_1=3"/>
+    <Object name="design_1_i/vio_0_probe_out4[7:0]" gui_info="hw_vios/hw_vio_1=4"/>
+    <Object name="design_1_i/vio_0_probe_out5[7:0]" gui_info="hw_vios/hw_vio_1=5"/>
+  </ObjectList>
+  <ObjectList object_type="hw_vio" gui_info="">
+    <Object name="hw_vio_1" gui_info="hw_vios/hw_vio_1/TablePreference=5	512	Name	0	2147483647	15	238	238	Value	1	2147483647	15	78	78	Activity	2	2147483647	15	57	57	Direction	3	2147483647	15	71	71	VIO	4	2147483647	15	68	68			1	6	1	Name	Value	Activity	Direction	VIO"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="FF"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out0[7]"/>
+        <net name="design_1_i/vio_0_probe_out0[6]"/>
+        <net name="design_1_i/vio_0_probe_out0[5]"/>
+        <net name="design_1_i/vio_0_probe_out0[4]"/>
+        <net name="design_1_i/vio_0_probe_out0[3]"/>
+        <net name="design_1_i/vio_0_probe_out0[2]"/>
+        <net name="design_1_i/vio_0_probe_out0[1]"/>
+        <net name="design_1_i/vio_0_probe_out0[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="FF"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out1[7]"/>
+        <net name="design_1_i/vio_0_probe_out1[6]"/>
+        <net name="design_1_i/vio_0_probe_out1[5]"/>
+        <net name="design_1_i/vio_0_probe_out1[4]"/>
+        <net name="design_1_i/vio_0_probe_out1[3]"/>
+        <net name="design_1_i/vio_0_probe_out1[2]"/>
+        <net name="design_1_i/vio_0_probe_out1[1]"/>
+        <net name="design_1_i/vio_0_probe_out1[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="FF"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out2[7]"/>
+        <net name="design_1_i/vio_0_probe_out2[6]"/>
+        <net name="design_1_i/vio_0_probe_out2[5]"/>
+        <net name="design_1_i/vio_0_probe_out2[4]"/>
+        <net name="design_1_i/vio_0_probe_out2[3]"/>
+        <net name="design_1_i/vio_0_probe_out2[2]"/>
+        <net name="design_1_i/vio_0_probe_out2[1]"/>
+        <net name="design_1_i/vio_0_probe_out2[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="FF"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out3[7]"/>
+        <net name="design_1_i/vio_0_probe_out3[6]"/>
+        <net name="design_1_i/vio_0_probe_out3[5]"/>
+        <net name="design_1_i/vio_0_probe_out3[4]"/>
+        <net name="design_1_i/vio_0_probe_out3[3]"/>
+        <net name="design_1_i/vio_0_probe_out3[2]"/>
+        <net name="design_1_i/vio_0_probe_out3[1]"/>
+        <net name="design_1_i/vio_0_probe_out3[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="FF"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out4[7]"/>
+        <net name="design_1_i/vio_0_probe_out4[6]"/>
+        <net name="design_1_i/vio_0_probe_out4[5]"/>
+        <net name="design_1_i/vio_0_probe_out4[4]"/>
+        <net name="design_1_i/vio_0_probe_out4[3]"/>
+        <net name="design_1_i/vio_0_probe_out4[2]"/>
+        <net name="design_1_i/vio_0_probe_out4[1]"/>
+        <net name="design_1_i/vio_0_probe_out4[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="FF"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out5[7]"/>
+        <net name="design_1_i/vio_0_probe_out5[6]"/>
+        <net name="design_1_i/vio_0_probe_out5[5]"/>
+        <net name="design_1_i/vio_0_probe_out5[4]"/>
+        <net name="design_1_i/vio_0_probe_out5[3]"/>
+        <net name="design_1_i/vio_0_probe_out5[2]"/>
+        <net name="design_1_i/vio_0_probe_out5[1]"/>
+        <net name="design_1_i/vio_0_probe_out5[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

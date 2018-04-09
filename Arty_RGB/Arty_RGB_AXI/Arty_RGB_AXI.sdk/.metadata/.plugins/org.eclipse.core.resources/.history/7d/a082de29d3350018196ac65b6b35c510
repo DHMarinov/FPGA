@@ -1,0 +1,27 @@
+/*
+ * RGB_test.c
+ *
+ *  Created on: 01.04.2018
+ *      Author: dm
+ */
+
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xil_io.h"
+
+
+int main()
+{
+    init_platform();
+
+    print("Hello World\n\r");
+
+
+    Xil_Out32(XPAR_ARTY_RGB_AXI_0_BASEADDR , 255); //LED0 Red
+
+    cleanup_platform();
+    return 0;
+}

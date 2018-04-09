@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr  7 13:52:08 2018
+# Process ID: 4012
+# Current directory: C:/Projects/2017/Arty_RGB_RTL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18124 C:\Projects\2017\Arty_RGB_RTL\Arty_RGB_RTL.xpr
+# Log file: C:/Projects/2017/Arty_RGB_RTL/vivado.log
+# Journal file: C:/Projects/2017/Arty_RGB_RTL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7s50_0]
+set_property PROBES.FILE {C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+set_property OUTPUT_VALUE FF [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE FF [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 00 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE FF [get_hw_probes design_1_i/vio_0_probe_out2 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out2} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 00 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE FF [get_hw_probes design_1_i/vio_0_probe_out3 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out3} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE FF [get_hw_probes design_1_i/vio_0_probe_out4 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out4} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE FF [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE FF [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE FF [get_hw_probes design_1_i/vio_0_probe_out5 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out5} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]

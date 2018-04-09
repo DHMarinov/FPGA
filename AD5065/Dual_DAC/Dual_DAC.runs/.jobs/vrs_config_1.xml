@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_processing_system7_0_0_synth_1" LaunchDir="C:/Projects/NEXT/New/ZYNQ_Master_reset/Dual_DAC/Dual_DAC.runs/design_1_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_AD5065_Dual_DAC_0_0_synth_1" LaunchDir="C:/Projects/NEXT/New/ZYNQ_Master_reset/Dual_DAC/Dual_DAC.runs/design_1_AD5065_Dual_DAC_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ila_0_0_synth_1" LaunchDir="C:/Projects/NEXT/New/ZYNQ_Master_reset/Dual_DAC/Dual_DAC.runs/design_1_ila_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_AD5065_Interface_0_0_synth_1" LaunchDir="C:/Projects/NEXT/New/ZYNQ_Master_reset/Dual_DAC/Dual_DAC.runs/design_1_AD5065_Interface_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_rst_ps7_0_100M_0_synth_1" LaunchDir="C:/Projects/NEXT/New/ZYNQ_Master_reset/Dual_DAC/Dual_DAC.runs/design_1_rst_ps7_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_0_synth_1" LaunchDir="C:/Projects/NEXT/New/ZYNQ_Master_reset/Dual_DAC/Dual_DAC.runs/design_1_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

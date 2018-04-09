@@ -1,0 +1,27 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port ck_rst -pg 1 -y 50 -defaultsOSRD
+preplace port CLK100MHZ -pg 1 -y 70 -defaultsOSRD
+preplace portBus rgb_led -pg 1 -y 200 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 60 -defaultsOSRD
+preplace inst Arty_RGB_RTL_0 -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace netloc ddr_clock_1 1 0 1 NJ
+preplace netloc vio_0_probe_out0 1 1 1 N
+preplace netloc vio_0_probe_out1 1 1 1 N
+preplace netloc vio_0_probe_out2 1 1 1 N
+preplace netloc clk_wiz_0_clk_out1 1 0 2 20 320 230
+preplace netloc vio_0_probe_out3 1 1 1 N
+preplace netloc vio_0_probe_out4 1 1 1 N
+preplace netloc vio_0_probe_out5 1 1 1 N
+preplace netloc reset_1 1 0 2 20 120 220
+preplace netloc Arty_RGB_RTL_0_rgb_led 1 2 1 N
+levelinfo -pg 1 0 120 340 470 -top 0 -bot 330
+",
+}
+{
+   da_board_cnt: "2",
+   da_clkrst_cnt: "2",
+}

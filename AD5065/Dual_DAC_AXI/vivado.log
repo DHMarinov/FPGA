@@ -1,0 +1,265 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr  7 14:01:02 2018
+# Process ID: 14880
+# Current directory: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2036 D:\Workspaces\Xilinx\ip_test\Dual_DAC_AXI\Dual_DAC_AXI.xpr
+# Log file: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/vivado.log
+# Journal file: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Workspaces/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_auto_pc_0
+design_1_processing_system7_0_0
+design_1_ps7_0_axi_periph_0
+design_1_rst_ps7_0_100M_0
+
+open_project: Time (s): cpu = 00:00:51 ; elapsed = 00:00:22 . Memory (MB): peak = 802.461 ; gain = 89.207
+update_compile_order -fileset sources_1
+open_bd_design {D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- DHMarinov:user:AD5065_Dual_DAC_AXI:1.0 - AD5065_Dual_DAC_AXI_0
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 894.844 ; gain = 85.039
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ip/design_1_AD5065_Dual_DAC_AXI_0_1/design_1_AD5065_Dual_DAC_AXI_0_1.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+[Sat Apr  7 14:03:37 2018] Launched design_1_AD5065_Dual_DAC_AXI_0_1_synth_1...
+Run output will be captured here: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_AD5065_Dual_DAC_AXI_0_1_synth_1/runme.log
+[Sat Apr  7 14:03:38 2018] Launched impl_1...
+Run output will be captured here: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 913.715 ; gain = 15.895
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_ps7_0_axi_periph_0 design_1_rst_ps7_0_100M_0 design_1_processing_system7_0_0}] -log ip_upgrade.log
+Upgrading 'D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd'
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+INFO: [PS7-6] Configuring Board Preset part0. Please wait ......
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+INFO: [IP_Flow 19-3422] Upgraded design_1_processing_system7_0_0 (ZYNQ7 Processing System 5.5) from revision 3 to revision 6
+INFO: [IP_Flow 19-3422] Upgraded design_1_ps7_0_axi_periph_0 (AXI Interconnect 2.1) from revision 12 to revision 16
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3422] Upgraded design_1_rst_ps7_0_100M_0 (Processor System Reset 5.0) from revision 10 to revision 12
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:34 ; elapsed = 00:00:28 . Memory (MB): peak = 986.289 ; gain = 58.406
+export_ip_user_files -of_objects [get_ips {design_1_ps7_0_axi_periph_0 design_1_rst_ps7_0_100M_0 design_1_processing_system7_0_0}] -no_script -sync -force -quiet
+reset_target all [get_files  D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects  [get_files  D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+CRITICAL WARNING: [BD 41-1356] Address block </AD5065_Dual_DAC_AXI_0/s00_axi/reg0> is not mapped into </processing_system7_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </AD5065_Dual_DAC_AXI_0/s00_axi/reg0> is not mapped into </processing_system7_0/Data>. Please use Address Editor to either map or exclude it.
+WARNING: [BD 41-927] Following properties on pin /AD5065_Dual_DAC_AXI_0/s00_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd> 
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AD5065_Dual_DAC_AXI_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+[Sat Apr  7 14:08:37 2018] Launched design_1_AD5065_Dual_DAC_AXI_0_1_synth_1, design_1_rst_ps7_0_100M_0_synth_1, design_1_processing_system7_0_0_synth_1, design_1_auto_pc_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_AD5065_Dual_DAC_AXI_0_1_synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_AD5065_Dual_DAC_AXI_0_1_synth_1/runme.log
+design_1_rst_ps7_0_100M_0_synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_rst_ps7_0_100M_0_synth_1/runme.log
+design_1_processing_system7_0_0_synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_processing_system7_0_0_synth_1/runme.log
+design_1_auto_pc_0_synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_auto_pc_0_synth_1/runme.log
+synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/synth_1/runme.log
+[Sat Apr  7 14:08:38 2018] Launched impl_1...
+Run output will be captured here: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1121.230 ; gain = 128.258
+report_ip_status -name ip_status 
+reset_run design_1_auto_pc_0_synth_1
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Workspaces/Xilinx/ip_repo'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv DHMarinov:user:AD5065_Dual_DAC_AXI:1.0 [get_ips  design_1_AD5065_Dual_DAC_AXI_0_1] -log ip_upgrade.log
+Upgrading 'D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_AD5065_Dual_DAC_AXI_0_1 from AD5065_Dual_DAC_AXI 1.0 to AD5065_Dual_DAC_AXI 1.0
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips design_1_AD5065_Dual_DAC_AXI_0_1] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+assign_bd_address
+</AD5065_Dual_DAC_AXI_0/s00_axi/reg0> is being mapped into </processing_system7_0/Data> at <0x43C00000 [ 64K ]>
+save_bd_design
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd> 
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AD5065_Dual_DAC_AXI_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+[Sat Apr  7 14:17:49 2018] Launched design_1_AD5065_Dual_DAC_AXI_0_1_synth_1, design_1_auto_pc_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_AD5065_Dual_DAC_AXI_0_1_synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_AD5065_Dual_DAC_AXI_0_1_synth_1/runme.log
+design_1_auto_pc_0_synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_auto_pc_0_synth_1/runme.log
+synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/synth_1/runme.log
+[Sat Apr  7 14:17:49 2018] Launched impl_1...
+Run output will be captured here: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1159.258 ; gain = 38.027
+reset_run impl_1
+delete_bd_objs [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_cells processing_system7_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+apply_bd_automation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1224.098 ; gain = 9.102
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "/processing_system7_0/FCLK_CLK0 (100 MHz)" }  [get_bd_pins ps7_0_axi_periph/ACLK]
+INFO: [BD 5-456] Automation on '/ps7_0_axi_periph/M00_ACLK' will not be run, since it is obsolete due to previously run automations
+INFO: [BD 5-456] Automation on '/rst_ps7_0_100M/slowest_sync_clk' will not be run, since it is obsolete due to previously run automations
+apply_bd_automation -rule xilinx.com:bd_rule:board -config {rst_polarity "ACTIVE_LOW" }  [get_bd_pins rst_ps7_0_100M/ext_reset_in]
+INFO: [board_rule 100-100] create_bd_port -dir I reset_rtl -type rst
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY  /reset_rtl
+INFO: [board_rule 100-100] connect_bd_net /reset_rtl /rst_ps7_0_100M/ext_reset_in
+INFO: [board_rule 100-100] set_property CONFIG.POLARITY ACTIVE_LOW /reset_rtl
+WARNING: [board_rule 100-100] Board automation did not generate location constraint for /rst_ps7_0_100M/ext_reset_in. Users may need to specify the location constraint manually.
+INFO: [BD 5-456] Automation on '/AD5065_Dual_DAC_AXI_0/s00_axi_aclk' will not be run, since it is obsolete due to previously run automations
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/AD5065_Dual_DAC_AXI_0/s00_axi" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins processing_system7_0/M_AXI_GP0]
+</AD5065_Dual_DAC_AXI_0/s00_axi/reg0> is being mapped into </processing_system7_0/Data> at <0x43C00000 [ 64K ]>
+endgroup
+delete_bd_objs [get_bd_intf_ports DDR]
+delete_bd_objs [get_bd_intf_ports FIXED_IO]
+set_property name FIXED_IO [get_bd_intf_ports FIXED_IO_0]
+set_property name DDR [get_bd_intf_ports DDR_0]
+regenerate_bd_layout -routing
+save_bd_design
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+validate_bd_design
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+save_bd_design
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AD5065_Dual_DAC_AXI_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = fade8883dc31f5db; cache size = 2.285 MB.
+[Sat Apr  7 14:31:05 2018] Launched design_1_processing_system7_0_1_synth_1, synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_1_synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_processing_system7_0_1_synth_1/runme.log
+synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/synth_1/runme.log
+[Sat Apr  7 14:31:05 2018] Launched impl_1...
+Run output will be captured here: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:55 ; elapsed = 00:00:59 . Memory (MB): peak = 1259.012 ; gain = 34.914
+reset_run synth_1
+reset_run design_1_processing_system7_0_1_synth_1
+delete_bd_objs [get_bd_nets reset_rtl_1] [get_bd_nets rst_ps7_0_100M_interconnect_aresetn] [get_bd_cells rst_ps7_0_100M]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_cells ps7_0_axi_periph]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "New AXI Interconnect" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins AD5065_Dual_DAC_AXI_0/s00_axi]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+regenerate_bd_layout -routing
+connect_bd_net [get_bd_ports reset_rtl] [get_bd_pins rst_ps7_0_100M/aux_reset_in]
+regenerate_bd_layout -routing
+validate_bd_design
+reset_target all [get_files  D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects  [get_files  D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd]
+save_bd_design
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AD5065_Dual_DAC_AXI_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_AD5065_Dual_DAC_AXI_0_1, cache-ID = e41c1602deb598b4; cache size = 2.286 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_rst_ps7_0_100M_1, cache-ID = bf406d6b1e52f1f1; cache size = 2.286 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_1, cache-ID = fade8883dc31f5db; cache size = 2.286 MB.
+[Sat Apr  7 14:36:15 2018] Launched design_1_processing_system7_0_1_synth_1, synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_1_synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_processing_system7_0_1_synth_1/runme.log
+synth_1: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/synth_1/runme.log
+[Sat Apr  7 14:36:15 2018] Launched impl_1...
+Run output will be captured here: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:52 ; elapsed = 00:00:59 . Memory (MB): peak = 1306.246 ; gain = 47.234
+delete_bd_objs [get_bd_nets reset_rtl_1]
+delete_bd_objs [get_bd_ports reset_rtl]
+validate_bd_design
+regenerate_bd_layout -routing
+make_wrapper -files [get_files D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AD5065_Dual_DAC_AXI_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = fade8883dc31f5db; cache size = 3.025 MB.
+[Sat Apr  7 14:50:21 2018] Launched synth_1...
+Run output will be captured here: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/synth_1/runme.log
+[Sat Apr  7 14:50:21 2018] Launched impl_1...
+Run output will be captured here: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 1470.570 ; gain = 41.020
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  7 14:57:16 2018...

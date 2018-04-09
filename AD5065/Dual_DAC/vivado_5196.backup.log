@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr  7 14:09:50 2018
+# Process ID: 5196
+# Current directory: C:/Projects/Misc/Dual_DAC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17176 C:\Projects\Misc\Dual_DAC\Dual_DAC.xpr
+# Log file: C:/Projects/Misc/Dual_DAC/vivado.log
+# Journal file: C:/Projects/Misc/Dual_DAC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  7 14:10:01 2018...

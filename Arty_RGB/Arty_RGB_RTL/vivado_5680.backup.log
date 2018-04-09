@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Apr  1 16:14:46 2018
+# Process ID: 5680
+# Current directory: C:/Projects/2017/Arty_RGB_RTL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1300 C:\Projects\2017\Arty_RGB_RTL\Arty_RGB_RTL.xpr
+# Log file: C:/Projects/2017/Arty_RGB_RTL/vivado.log
+# Journal file: C:/Projects/2017/Arty_RGB_RTL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/2017/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 786.797 ; gain = 72.473
+update_compile_order -fileset sources_1
+open_bd_design {C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:vio:3.0 - vio_0
+Adding cell -- xilinx.com:module_ref:RGB_controller:1.0 - RGB_controller_0
+Successfully read diagram <design_1> from BD file <C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 863.973 ; gain = 74.336
+delete_bd_objs [get_bd_nets vio_0_probe_out1] [get_bd_nets vio_0_probe_out2] [get_bd_nets vio_0_probe_out0] [get_bd_nets vio_0_probe_out3] [get_bd_nets RGB_controller_0_led1_g] [get_bd_nets RGB_controller_0_led0_g] [get_bd_nets RGB_controller_0_led0_b] [get_bd_nets RGB_controller_0_led1_r] [get_bd_nets vio_0_probe_out4] [get_bd_nets vio_0_probe_out5] [get_bd_nets RGB_controller_0_led0_r] [get_bd_nets RGB_controller_0_led1_b] [get_bd_cells RGB_controller_0]
+delete_bd_objs [get_bd_ports led0_r]
+delete_bd_objs [get_bd_ports led0_g]
+delete_bd_objs [get_bd_ports led0_b]
+delete_bd_objs [get_bd_ports led1_r]
+delete_bd_objs [get_bd_ports led1_g]
+delete_bd_objs [get_bd_ports led1_b]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/dm/Desktop/Others/Arty-S7-50-Rev-E-Master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/dm/Desktop/Others/Arty-S7-50-Rev-E-Master.xdc
+add_files -fileset constrs_1 -norecurse C:/Users/dm/Desktop/Arty-S7-50-Master.xdc
+export_ip_user_files -of_objects  [get_files C:/Users/dm/Desktop/Arty-S7-50-Master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/dm/Desktop/Arty-S7-50-Master.xdc
+save_bd_design
+Wrote  : <C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <C:/Projects/2017/Arty_RGB_RTL/Arty_RGB_RTL.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/2017/ip_repo'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  1 16:18:36 2018...

@@ -1,0 +1,36 @@
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+inbyte.c: In function 'inbyte':
+inbyte.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+outbyte.c: In function 'outbyte':
+outbyte.c:11:19: warning: unused parameter 'c' [-Wunused-parameter]
+ void outbyte(char c) {
+                   ^
+'Finished building libraries'
+13:59:56 **** Build of configuration Debug for project RGB_test ****
+make all 
+'Building file: ../src/RGB_test.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RGB_test.o" -I../../RGB_test_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/RGB_test.d" -MT"src/RGB_test.o" -o "src/RGB_test.o" "../src/RGB_test.c"
+'Finished building: ../src/RGB_test.c'
+' '
+'Building target: RGB_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../RGB_test_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "RGB_test.elf"  ./src/RGB_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: RGB_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size RGB_test.elf  |tee "RGB_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2204	    268	   3112	   5584	   15d0	RGB_test.elf
+'Finished building: RGB_test.elf.size'
+' '
+14:01:00 **** Incremental Build of configuration Debug for project RGB_test ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.

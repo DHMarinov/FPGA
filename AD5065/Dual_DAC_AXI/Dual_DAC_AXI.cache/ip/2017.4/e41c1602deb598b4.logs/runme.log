@@ -1,0 +1,390 @@
+
+*** Running vivado
+    with args -log design_1_AD5065_Dual_DAC_AXI_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_AD5065_Dual_DAC_AXI_0_1.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_AD5065_Dual_DAC_AXI_0_1.tcl -notrace
+Command: synth_design -top design_1_AD5065_Dual_DAC_AXI_0_1 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15776 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 374.539 ; gain = 100.723
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_AD5065_Dual_DAC_AXI_0_1' [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ip/design_1_AD5065_Dual_DAC_AXI_0_1/synth/design_1_AD5065_Dual_DAC_AXI_0_1.vhd:86]
+	Parameter CLK_FREQ bound to: 100 - type: integer 
+	Parameter SPI_FREQ bound to: 10 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'AD5065_Dual_DAC_AXI_v1_0' declared at 'd:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0.vhd:5' bound to instance 'U0' of component 'AD5065_Dual_DAC_AXI_v1_0' [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ip/design_1_AD5065_Dual_DAC_AXI_0_1/synth/design_1_AD5065_Dual_DAC_AXI_0_1.vhd:155]
+INFO: [Synth 8-638] synthesizing module 'AD5065_Dual_DAC_AXI_v1_0' [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0.vhd:54]
+	Parameter CLK_FREQ bound to: 100 - type: integer 
+	Parameter SPI_FREQ bound to: 10 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'AD5065_Dual_DAC_AXI_v1_0_S00_AXI' declared at 'd:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:5' bound to instance 'AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst' of component 'AD5065_Dual_DAC_AXI_v1_0_S00_AXI' [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'AD5065_Dual_DAC_AXI_v1_0_S00_AXI' [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:86]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:218]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:212]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:213]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:214]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:216]
+WARNING: [Synth 8-6014] Unused sequential element axi_araddr_reg was removed.  [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:297]
+WARNING: [Synth 8-3848] Net reg_data_out in module/entity AD5065_Dual_DAC_AXI_v1_0_S00_AXI does not have driver. [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:117]
+INFO: [Synth 8-256] done synthesizing module 'AD5065_Dual_DAC_AXI_v1_0_S00_AXI' (1#1) [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0_S00_AXI.vhd:86]
+	Parameter CLK_FREQ bound to: 100 - type: integer 
+	Parameter SPI_FREQ bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'AD5065_Dual_DAC' declared at 'd:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC.vhd:10' bound to instance 'AD5065_Dual_DAC_inst' of component 'AD5065_Dual_DAC' [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'AD5065_Dual_DAC' [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC.vhd:32]
+	Parameter CLK_FREQ bound to: 100 - type: integer 
+	Parameter SPI_FREQ bound to: 10 - type: integer 
+	Parameter SPI_POLARITY bound to: 1'b1 
+	Parameter SPI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'AD5065_Dual_DAC' (2#1) [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'AD5065_Dual_DAC_AXI_v1_0' (3#1) [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC_AXI_v1_0.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'design_1_AD5065_Dual_DAC_AXI_0_1' (4#1) [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ip/design_1_AD5065_Dual_DAC_AXI_0_1/synth/design_1_AD5065_Dual_DAC_AXI_0_1.vhd:86]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_ARADDR[3]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_ARADDR[2]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_ARADDR[1]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_ARADDR[0]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design AD5065_Dual_DAC_AXI_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 426.691 ; gain = 152.875
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 426.691 ; gain = 152.875
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 774.195 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 774.195 ; gain = 500.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 774.195 ; gain = 500.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 774.195 ; gain = 500.379
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'sclk_reg' into 'phase_reg[0:0]' [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC.vhd:66]
+WARNING: [Synth 8-6014] Unused sequential element sclk_reg was removed.  [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC.vhd:66]
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element bcount_reg was removed.  [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC.vhd:79]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 774.195 ; gain = 500.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module AD5065_Dual_DAC_AXI_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module AD5065_Dual_DAC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element U0/AD5065_Dual_DAC_inst/bcount_reg was removed.  [d:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/ipshared/8451/src/AD5065_Dual_DAC.vhd:79]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_araddr[3]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_araddr[2]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_araddr[1]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_araddr[0]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design design_1_AD5065_Dual_DAC_AXI_0_1 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/AD5065_Dual_DAC_inst/ldac_reg )
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_inst/ldac_reg) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 774.195 ; gain = 500.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 774.195 ; gain = 500.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:01:13 . Memory (MB): peak = 774.195 ; gain = 500.379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[31]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[30]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[29]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[28]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[27]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[26]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[25]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[24]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[23]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[22]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[21]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[20]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[19]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[18]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[17]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[16]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[15]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[14]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[13]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[12]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[11]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[10]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[9]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[8]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[7]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[6]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[5]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[4]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[3]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[2]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[1]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+INFO: [Synth 8-3332] Sequential element (U0/AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst/axi_rdata_reg[0]) is unused and will be removed from module design_1_AD5065_Dual_DAC_AXI_0_1.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:11 ; elapsed = 00:01:14 . Memory (MB): peak = 793.469 ; gain = 519.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 793.469 ; gain = 519.652
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 793.469 ; gain = 519.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 793.469 ; gain = 519.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 793.469 ; gain = 519.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 793.469 ; gain = 519.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 793.469 ; gain = 519.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     3|
+|2     |LUT1   |     2|
+|3     |LUT2   |     3|
+|4     |LUT3   |     7|
+|5     |LUT4   |     8|
+|6     |LUT5   |     6|
+|7     |LUT6   |    20|
+|8     |FDRE   |   113|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------------------------+---------------------------------+------+
+|      |Instance                                  |Module                           |Cells |
++------+------------------------------------------+---------------------------------+------+
+|1     |top                                       |                                 |   162|
+|2     |  U0                                      |AD5065_Dual_DAC_AXI_v1_0         |   162|
+|3     |    AD5065_Dual_DAC_AXI_v1_0_S00_AXI_inst |AD5065_Dual_DAC_AXI_v1_0_S00_AXI |    95|
+|4     |    AD5065_Dual_DAC_inst                  |AD5065_Dual_DAC                  |    67|
++------+------------------------------------------+---------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 793.469 ; gain = 519.652
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:01:00 . Memory (MB): peak = 793.469 ; gain = 172.148
+Synthesis Optimization Complete : Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 793.469 ; gain = 519.652
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+67 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:17 ; elapsed = 00:01:20 . Memory (MB): peak = 793.961 ; gain = 531.613
+INFO: [Common 17-1381] The checkpoint 'D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.runs/design_1_AD5065_Dual_DAC_AXI_0_1_synth_1/design_1_AD5065_Dual_DAC_AXI_0_1.dcp' has been generated.

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr  7 13:38:13 2018
+# Process ID: 9112
+# Current directory: D:/Workspaces/Xilinx/ip_test/Arty_RGB_RTL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14612 D:\Workspaces\Xilinx\ip_test\Arty_RGB_RTL\Arty_RGB_RTL.xpr
+# Log file: D:/Workspaces/Xilinx/ip_test/Arty_RGB_RTL/vivado.log
+# Journal file: D:/Workspaces/Xilinx/ip_test/Arty_RGB_RTL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Workspaces/Xilinx/ip_test/Arty_RGB_RTL/Arty_RGB_RTL.xpr
+update_compile_order -fileset sources_1

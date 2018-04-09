@@ -1,0 +1,84 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr  7 14:01:02 2018
+# Process ID: 14880
+# Current directory: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2036 D:\Workspaces\Xilinx\ip_test\Dual_DAC_AXI\Dual_DAC_AXI.xpr
+# Log file: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/vivado.log
+# Journal file: D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd}
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_ps7_0_axi_periph_0 design_1_rst_ps7_0_100M_0 design_1_processing_system7_0_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {design_1_ps7_0_axi_periph_0 design_1_rst_ps7_0_100M_0 design_1_processing_system7_0_0}] -no_script -sync -force -quiet
+reset_target all [get_files  D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects  [get_files  D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+report_ip_status -name ip_status 
+reset_run design_1_auto_pc_0_synth_1
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv DHMarinov:user:AD5065_Dual_DAC_AXI:1.0 [get_ips  design_1_AD5065_Dual_DAC_AXI_0_1] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_1_AD5065_Dual_DAC_AXI_0_1] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+assign_bd_address
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+delete_bd_objs [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_cells processing_system7_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "/processing_system7_0/FCLK_CLK0 (100 MHz)" }  [get_bd_pins ps7_0_axi_periph/ACLK]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config {rst_polarity "ACTIVE_LOW" }  [get_bd_pins rst_ps7_0_100M/ext_reset_in]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/AD5065_Dual_DAC_AXI_0/s00_axi" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins processing_system7_0/M_AXI_GP0]
+endgroup
+delete_bd_objs [get_bd_intf_ports DDR]
+delete_bd_objs [get_bd_intf_ports FIXED_IO]
+set_property name FIXED_IO [get_bd_intf_ports FIXED_IO_0]
+set_property name DDR [get_bd_intf_ports DDR_0]
+regenerate_bd_layout -routing
+save_bd_design
+validate_bd_design
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+reset_run design_1_processing_system7_0_1_synth_1
+delete_bd_objs [get_bd_nets reset_rtl_1] [get_bd_nets rst_ps7_0_100M_interconnect_aresetn] [get_bd_cells rst_ps7_0_100M]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_cells ps7_0_axi_periph]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "New AXI Interconnect" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins AD5065_Dual_DAC_AXI_0/s00_axi]
+regenerate_bd_layout -routing
+connect_bd_net [get_bd_ports reset_rtl] [get_bd_pins rst_ps7_0_100M/aux_reset_in]
+regenerate_bd_layout -routing
+validate_bd_design
+reset_target all [get_files  D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects  [get_files  D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd]
+save_bd_design
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+delete_bd_objs [get_bd_nets reset_rtl_1]
+delete_bd_objs [get_bd_ports reset_rtl]
+validate_bd_design
+regenerate_bd_layout -routing
+make_wrapper -files [get_files D:/Workspaces/Xilinx/ip_test/Dual_DAC_AXI/Dual_DAC_AXI.srcs/sources_1/bd/design_1/design_1.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

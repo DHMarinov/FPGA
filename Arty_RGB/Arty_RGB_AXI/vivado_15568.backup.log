@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr  7 13:38:30 2018
+# Process ID: 15568
+# Current directory: D:/Workspaces/Xilinx/ip_test/Arty_RGB_AXI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15736 D:\Workspaces\Xilinx\ip_test\Arty_RGB_AXI\Arty_RGB_AXI.xpr
+# Log file: D:/Workspaces/Xilinx/ip_test/Arty_RGB_AXI/vivado.log
+# Journal file: D:/Workspaces/Xilinx/ip_test/Arty_RGB_AXI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Workspaces/Xilinx/ip_test/Arty_RGB_AXI/Arty_RGB_AXI.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Workspaces/Xilinx/Arty_RGB_AXI' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/Workspaces/Xilinx/ip_test/ip_repo'; using path 'D:/Workspaces/Xilinx/ip_repo' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Workspaces/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:20 . Memory (MB): peak = 818.645 ; gain = 99.707
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  7 13:40:10 2018...

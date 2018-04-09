@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# updatemem v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# 
+# Start of session at: Sat Apr  7 14:00:44 2018
+# Process ID: 14964
+# Current directory: c:/Projects/2017/Arty_RGB_AXI
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2017.4/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.mmi -data C:/Xilinx/SDK/2017.4/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -out C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/download.bit -force
+# Log file: c:/Projects/2017/Arty_RGB_AXI/updatemem.log
+# Journal file: c:/Projects/2017/Arty_RGB_AXI\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2017.4/scripts/updatemem/main.tcl -notrace
+ Loading bitfile C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Bitstream compression saved 14634720 bits.
+Writing bitstream C:/Projects/2017/Arty_RGB_AXI/Arty_RGB_AXI.sdk/design_1_wrapper_hw_platform_0/download.bit...
+  update_mem: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 506.980 ; gain = 453.797
+INFO: [Common 17-206] Exiting updatemem at Sat Apr  7 14:00:52 2018...

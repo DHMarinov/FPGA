@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_auto_pc_1_synth_1" LaunchDir="D:/Workspaces/Xilinx/ip_test/Dual_DAC/Dual_DAC.runs/design_1_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_rst_ps7_0_100M_1_synth_1" LaunchDir="D:/Workspaces/Xilinx/ip_test/Dual_DAC/Dual_DAC.runs/design_1_rst_ps7_0_100M_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_processing_system7_0_1_synth_1" LaunchDir="D:/Workspaces/Xilinx/ip_test/Dual_DAC/Dual_DAC.runs/design_1_processing_system7_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_AD5065_Interface_0_1_synth_1" LaunchDir="D:/Workspaces/Xilinx/ip_test/Dual_DAC/Dual_DAC.runs/design_1_AD5065_Interface_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_AD5065_Dual_DAC_RTL_0_1_synth_1" LaunchDir="D:/Workspaces/Xilinx/ip_test/Dual_DAC/Dual_DAC.runs/design_1_AD5065_Dual_DAC_RTL_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Workspaces/Xilinx/ip_test/Dual_DAC/Dual_DAC.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_auto_pc_1_synth_1"/>
+		<Parent Id="design_1_rst_ps7_0_100M_1_synth_1"/>
+		<Parent Id="design_1_processing_system7_0_1_synth_1"/>
+		<Parent Id="design_1_AD5065_Interface_0_1_synth_1"/>
+		<Parent Id="design_1_AD5065_Dual_DAC_RTL_0_1_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/Workspaces/Xilinx/ip_test/Dual_DAC/Dual_DAC.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_1_auto_pc_1_synth_1"/>
+		<Parent Id="design_1_rst_ps7_0_100M_1_synth_1"/>
+		<Parent Id="design_1_processing_system7_0_1_synth_1"/>
+		<Parent Id="design_1_AD5065_Interface_0_1_synth_1"/>
+		<Parent Id="design_1_AD5065_Dual_DAC_RTL_0_1_synth_1"/>
+	</Run>
+</Runs>
+

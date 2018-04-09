@@ -1,0 +1,35 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 250 -defaultsOSRD
+preplace port sync -pg 1 -y 340 -defaultsOSRD
+preplace port mosi -pg 1 -y 360 -defaultsOSRD
+preplace port ldac -pg 1 -y 380 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 270 -defaultsOSRD
+preplace port sclk -pg 1 -y 320 -defaultsOSRD
+preplace inst AD5065_Dual_DAC_AXI_0 -pg 1 -lvl 4 -y 350 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -y 130 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 330 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 5 NJ 250 NJ 250 NJ 250 NJ 250 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 3 460J 190 800J 70 N
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 2 2 NJ 130 840
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 450
+preplace netloc AD5065_Dual_DAC_AXI_0_sclk 1 4 2 NJ 320 NJ
+preplace netloc AD5065_Dual_DAC_AXI_0_mosi 1 4 2 NJ 360 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 5 NJ 270 NJ 270 NJ 270 NJ 270 NJ
+preplace netloc AD5065_Dual_DAC_AXI_0_ldac 1 4 2 NJ 380 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 460 440 180 NJ 180 850
+preplace netloc ps7_0_axi_periph_M00_AXI 1 3 2 860 10 1130
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 2 2 NJ 110 N
+preplace netloc AD5065_Dual_DAC_AXI_0_sync 1 4 2 NJ 340 NJ
+levelinfo -pg 1 0 230 630 820 1000 1150 1190 -top 0 -bot 470
+",
+}
+{
+   da_axi4_cnt: "6",
+   da_board_cnt: "1",
+   da_clkrst_cnt: "1",
+   da_ps7_cnt: "2",
+}

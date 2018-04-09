@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr  2 21:37:53 2018
+# Process ID: 19140
+# Current directory: C:/Projects/2017/S7_system/S7_system.runs/impl_1
+# Command line: vivado.exe -log design_2_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_2_wrapper.tcl -notrace
+# Log file: C:/Projects/2017/S7_system/S7_system.runs/impl_1/design_2_wrapper.vdi
+# Journal file: C:/Projects/2017/S7_system/S7_system.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_2_wrapper.tcl -notrace
