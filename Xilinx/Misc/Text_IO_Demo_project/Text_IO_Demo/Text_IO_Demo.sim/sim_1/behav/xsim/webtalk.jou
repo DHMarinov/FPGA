@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jul 20 12:16:38 2018
+# Process ID: 4036
+# Current directory: D:/Workspaces/Xilinx/Misc/Text_IO_Demo/Text_IO_Demo.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Workspaces/Xilinx/Misc/Text_IO_Demo/Text_IO_Demo.sim/sim_1/behav/xsim/xsim.dir/Text_IO_Demo_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Workspaces/Xilinx/Misc/Text_IO_Demo/Text_IO_Demo.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Workspaces/Xilinx/Misc/Text_IO_Demo/Text_IO_Demo.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Workspaces/Xilinx/Misc/Text_IO_Demo/Text_IO_Demo.sim/sim_1/behav/xsim/xsim.dir/Text_IO_Demo_behav/webtalk/xsim_webtalk.tcl -notrace

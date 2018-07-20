@@ -1,0 +1,5 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Failure: Reading operation completed!
+Time: 180 ns  Iteration: 0  Process: /Text_IO_Demo/line__73  File: D:/Workspaces/Xilinx/Misc/Text_IO_Demo/Text_IO_Demo.srcs/sources_1/imports/Downloads/Text_IO_Demo.vhd
+$finish called at time : 180 ns : File "D:/Workspaces/Xilinx/Misc/Text_IO_Demo/Text_IO_Demo.srcs/sources_1/imports/Downloads/Text_IO_Demo.vhd" Line 177
